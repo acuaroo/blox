@@ -10,7 +10,7 @@ test/
 echo '
 {
 
-}9
+}
 ' >> default.project.json
 
 echo '
