@@ -5,6 +5,7 @@ use std::path::Path;
 // Main function
 fn main() {
     let args: Vec<String> = env::args().collect();
+
     let query = &args[1];
     let dir = &args[2];
 
