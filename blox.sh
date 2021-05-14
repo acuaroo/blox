@@ -2,19 +2,16 @@
 GREEN='\033[0;32m'
 NC='\033[0m']
 
-echo '
-.DS_Store
+echo '.DS_Store
 test/
 ' >> .gitignore
 
-echo '
-{
+echo '{
 
 }
 ' >> default.project.json
 
-echo '
-# Project Name
+echo '# Project Name
 Lorem Ipsum Description Text
 
 ## Chapter 1
@@ -41,13 +38,11 @@ mkdir client
 mkdir characters
 mkdir modules
 cd server
-echo '
-print("Hello from the server!")
+echo 'print("Hello from the server!")
 ' >> sr.server.lua
 cd ..
 cd client
-echo '
-print("Hello from the client!")
+echo 'print("Hello from the client!")
 ' >> cl.client.lua
 
 echo -e "${GREEN}Proccess finished!"
